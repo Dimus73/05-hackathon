@@ -116,6 +116,7 @@
 
 #gallery{
 	display: inline-flex;
+	position: relative;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	width: 100%;
@@ -126,8 +127,8 @@
 }
 .gallery-image{
 	display: inline-flex;
-	width: 400xp;
-	height: 300px;
+	width: 200xp;
+	height: 150px;
 }
 
 .gallery-image>img{
@@ -140,9 +141,17 @@
 
 }
 /* We decorate right boubles block */
-#bubbles-blok1{
-	display: block;
+#bubbles-blok1-placement{
+	display: inline-block;
 	position: relative;
+	width: 100%;
+}
+
+#bubbles-blok1{
+	display: inline-block;
+	position: absolute;
+	right: 15%;
+	top: -150px;
 	/* border: 1px solid black; */
 }
 
@@ -162,6 +171,46 @@
 }
 
 #bubble-1-4{
+	left: 4px;
+	top: 154px;
+}
+
+/* ------------------------------------------------------ */
+/* We decorate section No. 4 */
+
+#sectio4
+
+/* We decorate left boubles block */
+#bubbles-blok2-placement{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+#bubbles-blok2{
+	display: inline-block;
+	position: absolute;
+	left: 15%;
+	top: -150px;
+	/* border: 1px solid black; */
+}
+
+#bubble-2-1{
+	left: 37px;
+	top:0;
+}
+
+#bubble-2-2{
+	left: 0px;
+	top: 54px;
+}
+
+#bubble-2-3{
+	left: 31px;
+	top: 104px;
+}
+
+#bubble-2-4{
 	left: 4px;
 	top: 154px;
 }
