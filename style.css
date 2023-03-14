@@ -2,6 +2,11 @@
 	font-size: 0;
 }
 
+body{
+	position: relative;
+	left:0;
+	margin: 0;
+}
 /* We decorate Main menu */
 
 #main-menu{
@@ -40,6 +45,7 @@
 #section1{
 	display: inline-block;
 	position: fixed;
+	left:0;
 	margin-top: 5vh;
 	width: 100vw;
 }
@@ -75,6 +81,7 @@
 #trick{
 	display: inline-block;
 	position: relative;
+	left: 0;
 	width: 100px;
 	height: 55vh;
 }
@@ -103,12 +110,16 @@
 	width: 100vw;
 	background-color: white;
 	/* border: 1px solid black; */
+	/* overflow: hidden; */
+	scroll-margin-top: 4.5vw;
+
 }
 
 #sectio3>header>p{
 	margin: 50px auto;
 	width: 60%;
 	background-color: white;
+	color:rgb(48, 105, 155);
 	font-family: 'Lobster', sans-serif;
 	font-size: 4vw;
 	text-align: center;
@@ -128,12 +139,13 @@
 }
 .gallery-image{
 	display: inline-flex;
-	width: 200px;
-	height: 150px;
+	width: 300px;
+	height: 225px;
 }
 
 .gallery-image>img{
 	object-fit: cover;
+	width: 100%;
 }
 
 .gallery-block p{
@@ -248,7 +260,7 @@
 	display: inline-block;
 	position: relative;
 	width: 100vw;
-	/* border: 1px solid black; */
+	scroll-margin-top: 5vw;
 }
 
 #blue-plate{
@@ -299,7 +311,7 @@
 }
 
 #diver1{
-	left: -1vw;
+	left: 0vw;
 	top: calc(27vw);
 	width: 26vw;
 }
@@ -310,7 +322,7 @@
 }
 
 #diver2{
-	right: -3vw;
+	right: 0vw;
 	top: calc(10vw);
 	width: 30vw;
 }
@@ -377,17 +389,24 @@
 
 
 #bottom-menu{
-	display: inline-block;
+	display: flex;
 	width: 100%;
+	justify-content: space-around;
 	height: calc(0.4 * 100vw);
 	background-color: rgb(255, 255, 255);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	/* margin-bottom: 140px; */
 
 }
 
-
+.bottom-menu{
+	align-self:flex-end;
+	padding-bottom: 40px;
+}
 
 /* 17px font */
-.main-menu, .bubble, .gallery-block p{
+.main-menu, .bubble, .gallery-block p, .bottom-menu{
 	font-size: 17px;
 }
 
