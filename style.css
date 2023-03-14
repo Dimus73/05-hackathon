@@ -120,6 +120,7 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 	width: 100%;
+	margin-bottom: 150px;
 }
 
 .gallery-block{
@@ -127,7 +128,7 @@
 }
 .gallery-image{
 	display: inline-flex;
-	width: 200xp;
+	width: 200px;
 	height: 150px;
 }
 
@@ -175,10 +176,6 @@
 	top: 154px;
 }
 
-/* ------------------------------------------------------ */
-/* We decorate section No. 4 */
-
-#sectio4
 
 /* We decorate left boubles block */
 #bubbles-blok2-placement{
@@ -190,7 +187,7 @@
 #bubbles-blok2{
 	display: inline-block;
 	position: absolute;
-	left: 15%;
+	left: 10%;
 	top: -150px;
 	/* border: 1px solid black; */
 }
@@ -243,6 +240,150 @@
 	width: 28px;
 	height: 28px;
 }
+
+/* ------------------------------------------------------ */
+/* We decorate section No. 4 */
+
+#sectio4{
+	display: inline-block;
+	position: relative;
+	width: 100vw;
+	/* border: 1px solid black; */
+}
+
+#blue-plate{
+	display: inline-block;
+	width: 100%;
+	height: calc(0.5 * 100vw);
+	background-color: rgb(48,102,155);
+
+}
+
+#sectio4>#blue-plate>p{
+	font-family: 'Lobster', sans-serif;
+	font-size: 4vw;
+	text-align: center;
+	color:white ;
+
+}
+
+.image-on-blue{
+	display: inline-flex;
+	position: absolute;
+}
+
+#map-container{
+	left: 39vw;
+	width: 22vw;
+	height: calc(0.65* 100vw);
+	-webkit-box-shadow: 0px 0px 10px 9px rgba(34, 60, 80, 0.56); 
+	-moz-box-shadow: 0px 0px 10px 9px rgba(34, 60, 80, 0.56); 
+	box-shadow: 0px 0px 10px 9px rgba(34, 60, 80, 0.56);
+	border: 1px solid black;
+}
+#map-container>img {
+	object-fit: cover;
+	width: 100%;
+}
+
+#shark{
+	left: 4vw;
+	top: calc(10vw);
+	width: 23vw;
+	/* height: calc(0.65* 100vw); */
+}
+#shark>img{
+	object-fit: contain;
+	width: 100%;
+	opacity: 0.3;
+}
+
+#diver1{
+	left: -1vw;
+	top: calc(27vw);
+	width: 26vw;
+}
+#diver1>img{
+	object-fit: contain;
+	width: 100%;
+	opacity: 1;
+}
+
+#diver2{
+	right: -3vw;
+	top: calc(10vw);
+	width: 30vw;
+}
+#diver2>img{
+	object-fit: contain;
+	width: 100%;
+	opacity: 1;
+}
+
+#diver3{
+	right: 4vw;
+	top: calc(40vw);
+	width: 30vw;
+}
+#diver3>img{
+	object-fit: contain;
+	width: 100%;
+	opacity: 1;
+}
+
+#turtle{
+	left: 16vw;
+	top: calc(55vw);
+	width: 15vw;
+}
+#turtle>img{
+	object-fit: contain;
+	width: 100%;
+	opacity: 0.3;
+}
+
+#fish{
+	right: 20vw;
+	top: calc(30vw);
+	width: 10vw;
+}
+#fish>img{
+	object-fit: contain;
+	width: 100%;
+	opacity: 0.3;
+}
+
+#buble1{
+	right: 10vw;
+	top: calc(33vw);
+	width: 3vw;
+}
+#buble1>img{
+	object-fit: contain;
+	width: 100%;
+	opacity: 1;
+}
+
+#buble2{
+	left: 23vw;
+	top: calc(25vw);
+	width: 3vw;
+}
+#buble2>img{
+	object-fit: contain;
+	width: 100%;
+	opacity: 1;
+}
+
+
+#bottom-menu{
+	display: inline-block;
+	width: 100%;
+	height: calc(0.4 * 100vw);
+	background-color: rgb(255, 255, 255);
+
+}
+
 
 
 /* 17px font */
