@@ -8,7 +8,9 @@ body{
 	margin: 0;
 }
 /* We decorate Main menu */
-
+main{
+	overflow: hidden;
+}
 #main-menu{
 	display: flex;
 	position: fixed;
@@ -407,12 +409,14 @@ body{
 
 footer{
 	display: inline-block;
-	height: 140px;
+	width: 100%;
+	height: calc(10vw);
 }
 
 footer img{
 	object-fit: cover;
 	width: 100%;
+	height: 100%;
 }
 
 /* 17px font */
