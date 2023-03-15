@@ -286,7 +286,6 @@ main{
 	background-color: rgb(48,102,155);
 
 }
-
 #sectio4>#blue-plate>p{
 	font-family: 'Lobster', sans-serif;
 	font-size: 4vw;
@@ -314,10 +313,17 @@ main{
 	width: 100%;
 }
 
+/* ---------------------------------------------------------------------- */
+/* Animation */
+#blue-plate:hover #shark {
+	transform: rotate(10deg) translateX(50px) translateY(50px) scale(0.5);
+}
+/* ------------------------------------------------------ */
 #shark{
 	left: 4vw;
 	top: calc(10vw);
 	width: 23vw;
+	transition: 2s;
 	/* height: calc(0.65* 100vw); */
 }
 #shark>img{
@@ -326,10 +332,18 @@ main{
 	opacity: 0.3;
 }
 
+/* ---------------------------------------------------------------------- */
+/* Animation */
+#blue-plate:hover #diver1 {
+	transform: rotate(-10deg) translate(5px, 0) scaleX(1.1);
+}
+/* ------------------------------------------------------ */
 #diver1{
 	left: 0vw;
 	top: calc(27vw);
 	width: 26vw;
+	transition: 5s;
+	transfo
 }
 #diver1>img{
 	object-fit: contain;
@@ -337,10 +351,17 @@ main{
 	opacity: 1;
 }
 
+/* ---------------------------------------------------------------------- */
+/* Animation */
+#blue-plate:hover #diver2 {
+	transform: rotate(-10deg) translate(-120px, 0) scaleX(0.9);
+}
+/* ------------------------------------------------------ */
 #diver2{
 	right: 0vw;
 	top: calc(10vw);
 	width: 30vw;
+	transition: 3s
 }
 #diver2>img{
 	object-fit: contain;
@@ -403,6 +424,8 @@ main{
 	opacity: 1;
 }
 
+/* ------------------------------------------------------ */
+/* We decorate Bottom menu */
 
 #bottom-menu{
 	display: flex;
