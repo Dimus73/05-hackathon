@@ -57,7 +57,15 @@ main{
 	height: 50vh;
 }
 
-#fon-section1 img{ 
+#wrap-img{
+		width: 100%;
+	height: 100%;
+
+}
+#fon-section1 img{
+	/* display: inline-flex;  */
+	/* position: relative;
+	left: 300px; */
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -354,7 +362,7 @@ main{
 /* ---------------------------------------------------------------------- */
 /* Animation */
 #blue-plate:hover #diver2 {
-	transform: rotate(-10deg) translate(-120px, 0) scaleX(0.9);
+	transform: rotate(-10deg) translate(calc(-8vw), 0) scaleX(0.9);
 }
 /* ------------------------------------------------------ */
 #diver2{
@@ -369,10 +377,17 @@ main{
 	opacity: 1;
 }
 
+/* ---------------------------------------------------------------------- */
+/* Animation */
+#blue-plate:hover #diver3 {
+	transform: rotate(15deg) translate(0, calc(7vw)) scaleX(0.9);
+}
+/* ------------------------------------------------------ */
 #diver3{
 	right: 4vw;
 	top: calc(40vw);
 	width: 30vw;
+	transition: 4s
 }
 #diver3>img{
 	object-fit: contain;
@@ -380,15 +395,23 @@ main{
 	opacity: 1;
 }
 
+/* ---------------------------------------------------------------------- */
+/* Animation */
+#blue-plate:hover #turtle {
+	transform: rotate(15deg) translate(0, 0) scaleX(1.2);
+}
+/* ------------------------------------------------------ */
 #turtle{
 	left: 16vw;
 	top: calc(55vw);
 	width: 15vw;
+	transition: 4s
 }
 #turtle>img{
 	object-fit: contain;
 	width: 100%;
 	opacity: 0.3;
+	transition: 3s
 }
 
 #fish{
@@ -402,10 +425,17 @@ main{
 	opacity: 0.3;
 }
 
+/* ---------------------------------------------------------------------- */
+/* Animation */
+#blue-plate:hover #buble1 {
+	transform: rotate(0deg) translate(0, -50px) scaleX(1.2);
+}
+/* ------------------------------------------------------ */
 #buble1{
 	right: 10vw;
 	top: calc(33vw);
 	width: 3vw;
+	transition: 4s
 }
 #buble1>img{
 	object-fit: contain;
@@ -413,10 +443,17 @@ main{
 	opacity: 1;
 }
 
+/* ---------------------------------------------------------------------- */
+/* Animation */
+#blue-plate:hover #buble2 {
+	transform: rotate(0deg) translate(0px, -50px) scaleX(1.2);
+}
+/* ------------------------------------------------------ */
 #buble2{
 	left: 23vw;
 	top: calc(25vw);
 	width: 3vw;
+	transition: 4s
 }
 #buble2>img{
 	object-fit: contain;

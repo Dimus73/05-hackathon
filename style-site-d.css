@@ -135,8 +135,6 @@ body{
 	font-size: 20px;
 }
 
-
-
 footer menu {
 	background-color: rgb(48 102 155);
 	display: flex;
@@ -145,16 +143,15 @@ footer menu {
 	width: 100vw;
 	height: 7vh;
 	padding: 0;
-	justify-content: center;
+	justify-content: space-around;
 	vertical-align: middle;
 	font-family: 'Montserrat', sans-serif;
 }
 .menu-footer {
 	color: white;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 15px;
+	font-size: 17px;
 	align-self: center;
-	margin: 0 3%;
 }
 
 .z-index0{
