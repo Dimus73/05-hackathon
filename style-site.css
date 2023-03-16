@@ -18,7 +18,8 @@
 }
 
 #main-menu-img{
-	height: 5vh;
+	display: inline-block;
+	height: 40px;
 	padding: 10px 0;
 }
 

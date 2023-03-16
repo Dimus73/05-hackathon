@@ -7,12 +7,18 @@ body{
 }
 /* We decorate Main menu */
 
+/* #main-menu{
+	display: inline-block;
+	background-color: white;
+} */
+
 #main-menu{
 	display: flex;
-	position: fixed;
+	position:fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
+	/* height: 7vw; */
 	justify-content: center;
 	vertical-align: middle;
 	background-color: white;
@@ -21,19 +27,41 @@ body{
 }
 
 #main-menu-img{
-	height: 5vh;
+	display: inline-block;
+	position: relative;
+	/* height: 35px; */
 	padding: 10px 0;
+	text-align: center;
+	background-color: white;
 }
 
 .main-menu-img{
-	height: 100%;
+	display: inline-block;
+	height: 35px;
 }
 
+#location-name p{
+	margin: 0;
+	margin-top: 7px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3vw;
+	font-weight: bolder;
+	background-color:  rgb(48 102 155);
+	border-radius: 12px;
+	padding: 4px 10px;
+}
 .main-menu{
-	align-self: center;
+	/* align-self: center; */
 	margin: 0 3%;
+	padding-top: 10px;
 	color: black;
 	
+}
+
+#location-name{
+	display: inline-block;
+	color: black;
 }
 
 /* ------------------------------------------------------ */
@@ -41,7 +69,7 @@ body{
 #section1{
 	display: inline-block;
 	position: relative;
-	margin-top: 8vh;
+	margin-top: 120px;
 	width: 100vw;
 }
 
@@ -125,16 +153,6 @@ body{
 }
 
 
-
-/* 17px font */
-.main-menu {
-	font-size: 17px;
-}
-
-.Text_regular{
-	font-size: 20px;
-}
-
 footer menu {
 	background-color: rgb(48 102 155);
 	display: flex;
@@ -164,4 +182,13 @@ footer menu {
 
 .z-index2{
 	z-index: 2;
+}
+
+/* 17px font */
+.main-menu {
+	font-size: 17px;
+}
+
+.Text_regular{
+	font-size: 20px;
 }
