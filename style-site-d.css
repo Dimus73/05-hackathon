@@ -47,10 +47,12 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 3vw;
 	font-weight: bolder;
+	color: white;
 	background-color:  rgb(48 102 155);
 	border-radius: 12px;
 	padding: 4px 10px;
 }
+
 .main-menu{
 	/* align-self: center; */
 	margin: 0 3%;
