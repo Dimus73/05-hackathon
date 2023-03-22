@@ -405,7 +405,7 @@ main{
 	left: 16vw;
 	top: calc(55vw);
 	width: 15vw;
-	transition: 4s
+	transition: 4s;
 }
 #turtle>img{
 	object-fit: contain;
