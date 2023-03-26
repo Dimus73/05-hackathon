@@ -369,7 +369,7 @@ main{
 	right: 0vw;
 	top: calc(10vw);
 	width: 30vw;
-	transition: 3s
+	transition: 3s;
 }
 #diver2>img{
 	object-fit: contain;
